@@ -20,6 +20,7 @@ Je suis en reconversion professionnelle et ma passion pour l'informatique m'a am
 
 ## Certifications
 
+<img src="https://img.shields.io/badge/BTJA-0072b1?style=for-the-badge&logoColor=white"  caption= "Blue Team Junior Analyst" />
 
 
 ## Projects
