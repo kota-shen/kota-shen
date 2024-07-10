@@ -15,7 +15,7 @@ Je suis en reconversion professionnelle et ma passion pour l'informatique m'a am
 
 
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
+
 
 
 ## Certifications
