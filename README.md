@@ -10,7 +10,7 @@ Je suis en reconversion professionnelle et ma passion pour l'informatique m'a am
 
 | Skill | Associated Project                |
 | ----- | --------------------------------- |
-|       | <a href="https://google.com"></a> |
+|   Capture The Flag    | <a href="https://google.com"></a> |
 |       | <a href="https://google.com"></a> |
 
 
