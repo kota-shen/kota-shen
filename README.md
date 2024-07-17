@@ -1,6 +1,6 @@
 # Bonjour, Je m'appelle Aurélien
 
-<a href="www.linkedin.com/in/aurélien-pardons"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/aurelien-pardons/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 Actuellement je suit un cursus en cybersécurité au sein de l'IFAPME de Charleroi (E6K). je m'intéresse particulièrement aux nouvelles technologies et évidemment à la sécurité
 ## Objectifs
