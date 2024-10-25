@@ -8,10 +8,10 @@ Actuellement je suit un cursus en cybersécurité au sein de l'IFAPME de Charler
 Je suis en reconversion professionnelle et ma passion pour l'informatique m'a amené à m'intéresser de près à la sécurité de l'information, mon but serait de rejoindre une équipe en SOC et à termes devenir Threat Hunter 
 ## Skills
 
-| Skill            | Associated Project                |
-| ---------------- | --------------------------------- |
-| Capture The Flag | <a href="https://google.com"></a> |
-|                  | <a href="https://google.com"></a> |
+| Skill            | Associated Project                                         |
+| ---------------- | ---------------------------------------------------------- |
+| Capture The Flag | <a href="https://github.com/kota-shen/Writeup-CTF">CTF</a> |
+|                  | <a href="https://google.com"></a>                          |
 
 
 ## Tools
@@ -22,7 +22,6 @@ Je suis en reconversion professionnelle et ma passion pour l'informatique m'a am
 <div>
 <img src="https://img.shields.io/badge/-Wireshark-0072b1?&style=for-the-badge&logo=wireshark&logoColor=white" />
 </div>
-
 ## Certifications
 
 <img src="https://img.shields.io/badge/BTJA-0072b1?style=for-the-badge&logoColor=white"  title= "Blue Team Junior Analyst" />
