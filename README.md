@@ -10,7 +10,7 @@ Je suis en reconversion professionnelle et ma passion pour l'informatique m'a am
 
 | Skill            | Associated Project                                         |
 | ---------------- | ---------------------------------------------------------- |
-| Capture The Flag | <a href="https://github.com/kota-shen/Writeup-CTF">CTF</a> |
+| Capture The Flag | <a href="https://github.com/kota-shen/Writeup-CTF">Write up CTF</a> |
 |                  | <a href="https://google.com"></a>                          |
 
 
