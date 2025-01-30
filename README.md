@@ -10,7 +10,7 @@ Je suis en reconversion professionnelle et ma passion pour l'informatique m'a am
 
 | Skill            | Associated Project                                         |
 | ---------------- | ---------------------------------------------------------- |
-| Services Enumeration, Brute force, Hash Cracking, Linux Enumeration | <a href="[https://github.com/kota-shen/Writeup-CTF](https://github.com/kota-shen/Writeup-CTF/blob/main/TryHackMe/Basic%20pentest/Rapport.md)">Write up CTF</a> |
+| Services Enumeration, Brute force, Hash Cracking, Linux Enumeration | <a href="https://github.com/kota-shen/Writeup-CTF">Write up CTF</a> |
 |                  | <a href="https://google.com"></a>                          |
 
 
