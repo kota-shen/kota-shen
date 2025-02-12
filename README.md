@@ -21,9 +21,9 @@ Je suis en reconversion professionnelle et ma passion pour l'informatique m'a am
 
 ### Network
 
-<div>
-<img src="https://img.shields.io/badge/-Wireshark-0072b1?&style=for-the-badge&logo=wireshark&logoColor=white" />
-</div>
+<img src="https://img.shields.io/badge/-Wireshark-0072b1?&style=for-the-badge&logo=wireshark&logoColor=white" /> <img src="https://img.shields.io/badge/-Cisco%20Packet%20Tracer-1BA0D7?&style=for-the-badge&logo=cisco&logoColor=white" />
+
+
 
 ---
 ## Certifications
