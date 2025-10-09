@@ -14,7 +14,7 @@ Je suis en reconversion professionnelle et ma passion pour l'informatique m'a am
 
 | Skill | Associated Project                |
 | ----- | --------------------------------- |
-|       | <a href="https://google.com"></a> |
+| Ethical Hacking      | <a href="https://github.com/kota-shen/Homelab">HomeLab</a> |
 
 ---
 ## Tools
