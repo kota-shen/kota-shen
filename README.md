@@ -14,7 +14,7 @@ Je suis en reconversion professionnelle et ma passion pour l'informatique m'a am
 
 | Skill | Associated Project                |
 | ----- | --------------------------------- |
-| Ethical Hacking      | <a href="https://github.com/kota-shen/Homelab">HomeLab</a> |
+|     | <a href="www.google.be"></a> |
 
 ---
 ## Tools
@@ -32,10 +32,12 @@ Je suis en reconversion professionnelle et ma passion pour l'informatique m'a am
 ## Certifications
 
 <img src="https://img.shields.io/badge/BTJA-0072b1?style=for-the-badge&logoColor=white"  title= "Blue Team Junior Analyst" />
+<img src="https://img.shields.io/badge/Google%20IT%20Support%20Professional-4285F4?style=for-the-badge&logo=google&logoColor=white" 
+     title="Google IT Support Professional" />
 
 ---
 ## Projects
-<a href="https://github.com/kota-shen/Writeup-CTF">Write UP CTF</a>
+<a href="www.google.be"></a>
 
 ## Knowledges
-<a href="https://github.com/kota-shen/Knowledges">Base de connaissances</a>
+<a href="www.google.be"></a>
