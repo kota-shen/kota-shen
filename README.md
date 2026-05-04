@@ -1,3 +1,4 @@
+English version below
 # 👋 Bonjour, je m'appelle Aurélien (kota-shen)
 ### 🛠️ Administrateur Systèmes & Réseaux | 🛡️ Auditeur Cybersécurité Freelance
 
