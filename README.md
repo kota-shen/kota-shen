@@ -10,7 +10,7 @@ English version below
 ---
 
 ## 🎓 Certifications & Diplômes
-| Certification | Badge | Documentation |
+| Certification | Badge |
 | :--- | :--- | :--- |
 | **Google IT Support** | ![Google](https://img.shields.io/badge/Professional-4285F4?style=flat-square&logo=google&logoColor=white) |
 | **IFAPME E6K Cyber** | ![E6K](https://img.shields.io/badge/Graduate-FFD700?style=flat-square&logo=education&logoColor=black) |
