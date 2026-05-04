@@ -1,0 +1,22 @@
+# --- Obsidian ---
+.obsidian/
+# Optionnel : si tu veux garder tes plugins/thèmes mais pas tes réglages de fenêtre
+# .obsidian/workspace.json
+# .obsidian/graph.json
+
+# --- OS & Temporaire ---
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+
+# --- Données Sensibles ---
+# Au cas où tu créerais un dossier avec des mots de passe ou des clés API
+secrets/
+.env
+
+# --- Backup ---
+.trash/
+
+# Ignorer le dossier de cours (et tout ce qu'il y a dedans)
+Cours/
