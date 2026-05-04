@@ -4,7 +4,8 @@ English version below
 
 <p align="left">
 <a href="https://www.linkedin.com/in/aurelien-pardons/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:aurelien.pardons@hotmail.com"><img src="https://img.shields.io/badge/-Contact-D14836?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="mailto:aurelien.pardons@hotmail.com"><img src="https://img.shields.io/badge/-Contact-D14836?&style=for-the-badge&logo=gmail&logoColor=white" /></a></p>
+
 
 
 ---
@@ -70,7 +71,8 @@ Lancer mon activité de **Consultant en Cybersécurité**. Ce projet sert de "Pr
 
 <p align="left">
 <a href="https://www.linkedin.com/in/aurelien-pardons/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:aurelien.pardons@hotmail.com"><img src="https://img.shields.io/badge/-Contact-D14836?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="mailto:aurelien.pardons@hotmail.com"><img src="https://img.shields.io/badge/-Contact-D14836?&style=for-the-badge&logo=gmail&logoColor=white" /></a></p>
+
 
 
 ---
