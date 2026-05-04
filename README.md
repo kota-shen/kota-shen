@@ -12,9 +12,9 @@ English version below
 ## 🎓 Certifications & Diplômes
 | Certification | Badge | Documentation |
 | :--- | :--- | :--- |
-| **Google IT Support** | ![Google](https://img.shields.io/badge/Professional-4285F4?style=flat-square&logo=google&logoColor=white) | [Voir Certif](#) |
-| **IFAPME E6K Cyber** | ![E6K](https://img.shields.io/badge/Graduate-FFD700?style=flat-square&logo=education&logoColor=black) | [Détails Cursus](#) |
-| **Blue Team Jr Analyst** | ![BTJA](https://img.shields.io/badge/BTJA-0072b1?style=flat-square) | [Badge Credly](#) |
+| **Google IT Support** | ![Google](https://img.shields.io/badge/Professional-4285F4?style=flat-square&logo=google&logoColor=white) |
+| **IFAPME E6K Cyber** | ![E6K](https://img.shields.io/badge/Graduate-FFD700?style=flat-square&logo=education&logoColor=black) |
+| **Blue Team Jr Analyst** | ![BTJA](https://img.shields.io/badge/BTJA-0072b1?style=flat-square) |
 
 ---
 
@@ -63,6 +63,8 @@ Lancer mon activité de **Consultant en Cybersécurité**. Ce projet sert de "Pr
   <i>"Comprendre le système pour mieux le protéger."</i>
 </p>
 
+
+
 # 👋 Hello, I'm Aurélien (kota-shen)
 ### 🛠️ Systems & Network Administrator | 🛡️ Freelance Cybersecurity Auditor
 
@@ -74,11 +76,11 @@ Lancer mon activité de **Consultant en Cybersécurité**. Ce projet sert de "Pr
 ---
 
 ## 🎓 Certifications & Education
-| Certification | Badge | Documentation |
+| Certification | Badge |
 | :--- | :--- | :--- |
-| **Google IT Support** | ![Google](https://img.shields.io/badge/Professional-4285F4?style=flat-square&logo=google&logoColor=white) | [View Cert](#) |
-| **IFAPME E6K Cyber** | ![E6K](https://img.shields.io/badge/Graduate-FFD700?style=flat-square&logo=education&logoColor=black) | [Course Details](#) |
-| **Blue Team Jr Analyst** | ![BTJA](https://img.shields.io/badge/BTJA-0072b1?style=flat-square) | [Credly Badge](#) |
+| **Google IT Support** | ![Google](https://img.shields.io/badge/Professional-4285F4?style=flat-square&logo=google&logoColor=white) |
+| **IFAPME E6K Cyber** | ![E6K](https://img.shields.io/badge/Graduate-FFD700?style=flat-square&logo=education&logoColor=black) |
+| **Blue Team Jr Analyst** | ![BTJA](https://img.shields.io/badge/BTJA-0072b1?style=flat-square) |
 
 ---
 
