@@ -46,6 +46,7 @@ English version below
 ---
 
 ## 🚀 Roadmap de Déploiement
+- [x] **Phase0:** [Proxmox Hypervisor setup (NAT routing & DHCP)](./infrastructure/proxmox/network-setup.md)
 - [ ] **Phase 1 :** Déploiement Win 10 Pro & Ubuntu Desktop.
 - [ ] **Phase 2 :** Infrastructure Windows Server AD DS (GPO, DNS).
 - [ ] **Phase 3 :** Ajout Windows 11 & Fedora (Prep LPI Essentials).
