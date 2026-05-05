@@ -20,3 +20,5 @@ secrets/
 
 # Ignorer le dossier de cours (et tout ce qu'il y a dedans)
 Cours/
+*.ods
+*.drawio
