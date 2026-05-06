@@ -40,6 +40,7 @@
 ## 📓 Notes de laboratoire
 > *Note ici les problèmes rencontrés ou les réglages spécifiques (ex: désactivation du pare-feu Windows pour les tests ICMP initial).*
 
+
 ![1](/assets/screenshots/windows10/windows10-1.png)
 
 ![2](/assets/screenshots/windows10/windows10-2.png)
