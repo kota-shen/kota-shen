@@ -47,10 +47,11 @@
 ## 🚀 Roadmap de Déploiement
 - [x] **Phase0:** [Proxmox Hypervisor setup (NAT routing & DHCP)](./infrastructure/proxmox/network-setup.md)
 	- [x] Inventaire initial : [Fichier PDF](./documentation/inventory/Inventaire.pdf)
-- [ ] **Phase 1 :** Déploiement Win 10 Pro & Ubuntu Desktop.
-- [ ] **Phase 2 :** Infrastructure Windows Server AD DS (GPO, DNS).
-- [ ] **Phase 3 :** Ajout Windows 11 & Fedora (Prep LPI Essentials).
-- [ ] **Phase 4 :** Setup du Laptop Audit en Bridge Ethernet.
+- [ ] **Phase 1 :** Déploiement Win 10 Pro & Windows Server AD DS (GPO, DNS).
+	- [x] [Déploiement Windows 10 Pro](./infrastructure/virtual-machines/Windows-10.md)
+- [ ] **Phase 2 :** Déploiement Ubuntu Desktop & Ubuntu serveur
+- [ ] **Phase 3 :** Déploiement Kali linux
+- [ ] **Phase 4 :** Ajout Windows 11 & Fedora (Prep LPI Essentials).
 - [ ] **Phase 5 :** Filtrage & Prévention via **Endian**.
 - [ ] **Phase 6 :** Audit global avec **Greenbone**.
 - [ ] **Phase 7 :** Mise sous contrôle avec GLPI & Zabbix.
