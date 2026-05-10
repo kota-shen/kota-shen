@@ -49,6 +49,8 @@
 	- [x] Inventaire initial : [Fichier PDF](./documentation/inventory/Inventaire.pdf)
 - [ ] **Phase 1 :** Déploiement Win 10 Pro & Windows Server AD DS (GPO, DNS).
 	- [x] [Déploiement Windows 10 Pro](./infrastructure/virtual-machines/Windows-10.md)
+	- [x] [Déploiement Windows Serveur](./infrastructure/virtual-machines/Windows-server.md)
+	- [x] [Installation et configuration de l'Active Directory](/infrastructure/services/ad-ds.md)
 - [ ] **Phase 2 :** Déploiement Ubuntu Desktop & Ubuntu serveur
 - [ ] **Phase 3 :** Déploiement Kali linux
 - [ ] **Phase 4 :** Ajout Windows 11 & Fedora (Prep LPI Essentials).

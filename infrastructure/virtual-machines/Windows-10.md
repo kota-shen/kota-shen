@@ -1,4 +1,4 @@
-# 🖥️ Fiche Technique : [Windows 10]
+# 🖥️ Fiche Technique : [wcl01]
 
 ## 📝 Présentation
 *   **Rôle :** Poste de travail utilisateur
@@ -77,4 +77,4 @@
 
 ![18](/assets/screenshots/windows10/windows10-18.png)
 
-![19](/assets/screenshots/windows10/windows10-19.png)
+![34](/assets/screenshots/windows10/windows10-19.png)
