@@ -13,6 +13,7 @@
 ### 1. Préparation du système
 > *Note : Toujours vérifier les mises à jour avant l'installation.*
 * Étape A : Fixation de l'adresse IP
+
 ![1](/assets/screenshots/ad/ad01.png)
 
 
@@ -24,6 +25,7 @@ Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools
 ```
 
 - **Configuration via GUI** :
+
 ![2](/assets/screenshots/ad/ad02.png)
 ![3](/assets/screenshots/ad/ad03.png)
 ![4](/assets/screenshots/ad/ad04.png)

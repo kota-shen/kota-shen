@@ -47,14 +47,17 @@
 ## 🚀 Roadmap de Déploiement
 - [x] **Phase0:** [Proxmox Hypervisor setup (NAT routing & DHCP)](./infrastructure/proxmox/network-setup.md)
 	- [x] Inventaire initial : [Fichier PDF](./documentation/inventory/Inventaire.pdf)
-- [ ] **Phase 1 :** Déploiement Win 10 Pro & Windows Server AD DS (GPO, DNS).
+- [x] **Phase 1 :** Déploiement Win 10 Pro & Windows Server AD DS (GPO, DNS).
 	- [x] [Déploiement Windows 10 Pro](./infrastructure/virtual-machines/Windows-10.md)
 	- [x] [Déploiement Windows Serveur](./infrastructure/virtual-machines/Windows-server.md)
 	- [x] [Installation et configuration de l'Active Directory](/infrastructure/services/ad-ds.md)
-- [ ] **Phase 2 :** Déploiement Ubuntu Desktop & Ubuntu serveur
+- [x] **Phase 2 :** Déploiement Ubuntu Desktop & Ubuntu serveur
+	- [x] [Déploiement Ubuntu Desktop](/infrastructure/virtual-machines/Ubuntu.md)
+	- [x] [Déploiement Ubuntu Serveur](/infrastructure/virtual-machines/Ubuntu-server.md)
+	- [x] [Installation et configuration de LAMP](/infrastructure/services/LAMP.md)
 - [ ] **Phase 3 :** Déploiement Kali linux
-- [ ] **Phase 4 :** Ajout Windows 11 & Fedora (Prep LPI Essentials).
-- [ ] **Phase 5 :** Filtrage & Prévention via **Endian**.
+- [ ] **Phase 4 :** Déploiement Windows 11 & Fedora (Prep LPI Essentials).
+- [ ] **Phase 5 :** Déploiement Endian & outils Blue Team
 - [ ] **Phase 6 :** Audit global avec **Greenbone**.
 - [ ] **Phase 7 :** Mise sous contrôle avec GLPI & Zabbix.
 - [ ] **Phase 8 :** Sécurité avancée (DMZ Docker, SIEM & **pfSense**).
@@ -68,3 +71,4 @@ Lancer mon activité de **Consultant en Cybersécurité**. Ce projet sert de "Pr
 <p align="center">
   <i>"Comprendre le système pour mieux le protéger."</i>
 </p>
+
