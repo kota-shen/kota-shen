@@ -1,21 +1,21 @@
-# 🖥️ Fiche Technique : [kali]
+# 🖥️ Fiche Technique : [kali-kota]
 
 ## 📝 Présentation
-*   **Rôle :** (ex: Poste de travail utilisateur / Contrôleur de domaine)
-*   **Système d'exploitation :** (ex: Windows 10 Pro 22H2)
-*   **Statut :** 🟢 Opérationnel / 🟠 En cours / 🔴 Hors ligne
+*   **Rôle :** Machine virtuelle de pentest
+*   **Système d'exploitation :** Kali Linux
+*   **Statut :** 🟢 Opérationnel
 
 ---
 
-## ⚙️ Configuration Proxmox (Hardware)
-| Composant       | Paramètre             | Note                          |
-|:----------------|:----------------------|:------------------------------|
-| **ID VM**       | `1XX`                 | Suivi de l'inventaire         |
-| **CPU**         | X vCPU (Type: Host)   | Utiliser 'Host' pour perf max |
-| **RAM**         | X Go                  | (Fixe ou Ballooning)          |
-| **Disque**      | X Go (VirtIO Block)   | Cache: Write Back (Default)   |
-| **Réseau**      | `vmbr0` (VirtIO)      | Pont vers Flat Network        |
-| **BIOS/EFI**    | OVMF (UEFI)           | Requis pour Win11 / SecureBoot|
+## ⚙️ Configuration VMWare (Hardware)
+| Composant    | Paramètre           | Note                     |
+| :----------- | :------------------ | :----------------------- |
+| **ID VM**    | `9900`              | Suivi de l'inventaire    |
+| **CPU**      | 4 vCPU (Type: Host) |                          |
+| **RAM**      | 8 Go                | (Fixe ou Ballooning)     |
+| **Disque**   | 300 Go              | Thin provisionning       |
+| **Réseau**   | Bridge              | Pont vers Réseau proxmox |
+| **BIOS/EFI** | Bios                |                          |
 
 ---
 
@@ -29,11 +29,10 @@
 ---
 
 ## 🛠️ Installation & Post-Configuration
-- [ ] Installation de l'OS via ISO.
-- [ ] Installation des **VirtIO Drivers** (pour Windows).
-- [ ] Installation du **QEMU Guest Agent** (`apt install qemu-guest-agent`).
-- [ ] Mises à jour système terminées.
-- [ ] Renommage du Hostname (ex: `CLI-WIN10-01`).
+- [x] Installation de l'OS via ISO.
+- [x] Installation du Vmware Guest tools** (`apt install open-vm-tools).
+- [x] Mises à jour système terminées.
+- [x] Renommage du Hostname
 - [ ] Snapshot "Clean Install" créé dans Proxmox.
 
 ---

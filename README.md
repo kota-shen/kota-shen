@@ -6,15 +6,13 @@
 <a href="mailto:aurelien.pardons@hotmail.com"><img src="https://img.shields.io/badge/-Contact-D14836?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-
-
 ---
 
 ## 🎓 Certifications & Diplômes
 | Certification            | Badge                                                                                                     |
 | :----------------------- | :-------------------------------------------------------------------------------------------------------- |
-| **Google IT Support**    | ![Google](https://img.shields.io/badge/Professional-4285F4?style=flat-square&logo=google&logoColor=white) |
-| **IFAPME E6K Cyber**     | ![E6K](https://img.shields.io/badge/Graduate-FFD700?style=flat-square&logo=education&logoColor=black)     |
+| **Google IT Support** | ![Google](https://img.shields.io/badge/Professional-4285F4?style=flat-square&logo=google&logoColor=white) |
+| **IFAPME E6K Cyber** | ![E6K](https://img.shields.io/badge/Graduate-FFD700?style=flat-square&logo=education&logoColor=black)     |
 | **Blue Team Jr Analyst** | ![BTJA](https://img.shields.io/badge/BTJA-0072b1?style=flat-square)                                       |
 
 ---
@@ -24,20 +22,21 @@
 
 ![schéma.png](./assets/diagrams/schéma.png)
 
-### 🛡️ Station d'Audit (Physique)
-*   **Système :** Kali Linux (Rolling)
-*   **Outils :** Greenbone (OpenVAS), Nmap, Wireshark, Python.
+### 🛡️ Station d'Audit (Physique & VM)
+* **Systèmes :** Kali Linux (Rolling) & CSI Linux (Investigation).
+* **Outils :** Greenbone (OpenVAS), TL Osint, Nmap, Wireshark, Python.
 
 ### 🌐 Infrastructure Réseau & Sécurité
-*   **Firewalls :** Endian (Prévention) & pfSense (Protection & VPN).
-*   **Systèmes :** Active Directory (Win Server), Multi-OS (Win 10/11, Ubuntu, Fedora).
-*   **Observabilité :** Zabbix & GLPI.
+* **Firewalls :** Endian (Prévention) & pfSense (Protection & VPN).
+* **Systèmes :** Active Directory (Win Server), Multi-OS (Win 10/11, Ubuntu, Fedora).
+* **Observabilité :** Zabbix & GLPI.
 
 ---
 
 ## 🛠️ Stack Technique
 | Catégorie | Badges |
 | :--- | :--- |
+| **Cybersécurité** | ![Greenbone](https://img.shields.io/badge/Greenbone-77AD1E?style=flat-square&logo=openvas&logoColor=white) ![CSI Linux](https://img.shields.io/badge/CSI%20Linux-000000?style=flat-square&logo=linux) ![OSINT](https://img.shields.io/badge/OSINT-TL%20Osint-blue?style=flat-square) |
 | **Systèmes** | ![Win](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows) ![Linux](https://img.shields.io/badge/Linux-E95420?style=flat-square&logo=linux) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker) |
 | **Réseau** | ![pfSense](https://img.shields.io/badge/pfSense-212121?style=flat-square&logo=pfsense) ![Cisco](https://img.shields.io/badge/Cisco-00bce1?style=flat-square&logo=cisco) |
 | **Monitoring** | ![Zabbix](https://img.shields.io/badge/Zabbix-FF6600?style=flat-square&logo=zabbix) ![GLPI](https://img.shields.io/badge/GLPI-green?style=flat-square) |
@@ -55,12 +54,14 @@
 	- [x] [Déploiement Ubuntu Desktop](/infrastructure/virtual-machines/Ubuntu.md)
 	- [x] [Déploiement Ubuntu Serveur](/infrastructure/virtual-machines/Ubuntu-server.md)
 	- [x] [Installation et configuration de LAMP](/infrastructure/services/LAMP.md)
-- [ ] **Phase 3 :** Déploiement Kali linux
-- [ ] **Phase 4 :** Déploiement Windows 11 & Fedora (Prep LPI Essentials).
-- [ ] **Phase 5 :** Déploiement Endian & outils Blue Team
-- [ ] **Phase 6 :** Audit global avec **Greenbone**.
+- [ ] **Phase 3 :** Déploiement Windows 11 & Fedora (Prep LPI Essentials).
+	- [x] [Déploiement de Windows 11](/infrastructure/virtual-machines/Windows-11.md)
+	- [ ] Déploiement de Fedora 44
+- [ ] **Phase 4 :** Déploiement Endian
+- [ ] **Phase 5 :** Audit & hardening
+- [ ] **Phase 6 :** Déploiement pfSense, Docker
 - [ ] **Phase 7 :** Mise sous contrôle avec GLPI & Zabbix.
-- [ ] **Phase 8 :** Sécurité avancée (DMZ Docker, SIEM & **pfSense**).
+- [ ] **Phase 8 :** Sécurité avancée SIEM, IDS/IPS, Proxy
 
 ---
 
@@ -71,4 +72,3 @@ Lancer mon activité de **Consultant en Cybersécurité**. Ce projet sert de "Pr
 <p align="center">
   <i>"Comprendre le système pour mieux le protéger."</i>
 </p>
-
