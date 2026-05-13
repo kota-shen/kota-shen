@@ -54,9 +54,9 @@
 	- [x] [Déploiement Ubuntu Desktop](/infrastructure/virtual-machines/Ubuntu.md)
 	- [x] [Déploiement Ubuntu Serveur](/infrastructure/virtual-machines/Ubuntu-server.md)
 	- [x] [Installation et configuration de LAMP](/infrastructure/services/LAMP.md)
-- [ ] **Phase 3 :** Déploiement Windows 11 & Fedora (Prep LPI Essentials).
+- [x] **Phase 3 :** Déploiement Windows 11 & Fedora (Prep LPI Essentials).
 	- [x] [Déploiement de Windows 11](/infrastructure/virtual-machines/Windows-11.md)
-	- [ ] Déploiement de Fedora 44
+	- [x] [Déploiement de Fedora 44](/infrastructure/virtual-machines/Fedora.md)
 - [ ] **Phase 4 :** Déploiement Endian
 - [ ] **Phase 5 :** Audit & hardening
 - [ ] **Phase 6 :** Déploiement pfSense, Docker
