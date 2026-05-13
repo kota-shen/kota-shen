@@ -33,7 +33,7 @@
 - [x] Installation du Vmware Guest tools** (`apt install open-vm-tools).
 - [x] Mises à jour système terminées.
 - [x] Renommage du Hostname
-- [ ] Snapshot "Clean Install" créé dans Proxmox.
+- [x] Snapshot "Clean Install" créé dans Proxmox.
 
 ---
 
