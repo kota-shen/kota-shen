@@ -57,9 +57,9 @@
 - [x] **Phase 3 :** Déploiement Windows 11 & Fedora (Prep LPI Essentials).
 	- [x] [Déploiement de Windows 11](/infrastructure/virtual-machines/Windows-11.md)
 	- [x] [Déploiement de Fedora 44](/infrastructure/virtual-machines/Fedora.md)
-- [ ] **Phase 4 :** Déploiement Endian
+- [ ] **Phase 4 :** [Déploiement pfSense](/infrastructure/virtual-machines/pfsense.md)
 - [ ] **Phase 5 :** Audit & hardening
-- [ ] **Phase 6 :** Déploiement pfSense, Docker
+- [ ] **Phase 6 :** Déploiement Docker
 - [ ] **Phase 7 :** Mise sous contrôle avec GLPI & Zabbix.
 - [ ] **Phase 8 :** Sécurité avancée SIEM, IDS/IPS, Proxy
 
