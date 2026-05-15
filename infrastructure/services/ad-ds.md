@@ -42,7 +42,7 @@ Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools
     
 - **Date** : 09/05/2026
 
-# Réplication de l'Active Directory
+# Replication-active-directory
 
 Dans ce labo j'ai mis en place un firewall pfsense afin d'y placer les machines composant l'infrastructure. Afin d'éviter une rupture de service, ou du moins minimiser l'impact, j'ai mis en oeuvre un second serveur windows pour que les machines ne soient pas coupées du domaine lors d'une migration.
 
