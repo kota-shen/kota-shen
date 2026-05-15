@@ -58,6 +58,7 @@
 	- [x] [Déploiement de Windows 11](/infrastructure/virtual-machines/Windows-11.md)
 	- [x] [Déploiement de Fedora 44](/infrastructure/virtual-machines/Fedora.md)
 - [ ] **Phase 4 :** [Déploiement pfSense](/infrastructure/virtual-machines/pfsense.md)
+	- [ ] Déploiement second Active Directory
 - [ ] **Phase 5 :** Audit & hardening
 - [ ] **Phase 6 :** Déploiement Docker
 - [ ] **Phase 7 :** Mise sous contrôle avec GLPI & Zabbix.

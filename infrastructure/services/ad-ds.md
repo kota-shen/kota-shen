@@ -41,3 +41,27 @@ Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools
 - **Nom du Snapshot** : `Post-install-AD`
     
 - **Date** : 09/05/2026
+
+# Réplication de l'Active Directory
+
+Dans ce labo j'ai mis en place un firewall pfsense afin d'y placer les machines composant l'infrastructure. Afin d'éviter une rupture de service, ou du moins minimiser l'impact, j'ai mis en oeuvre un second serveur windows pour que les machines ne soient pas coupées du domaine lors d'une migration.
+
+- wsrv01 (Maître FSMO) : il se situe en amont du firewall (donc sur le réseau flat de départ)
+- wsrv02 (Réplica) : Situé derrière le firewall
+- Flux : Afin de permettre à l'infrastructure de fonctionner sans rupture, le firewall n'est pas encore durci afin de laisser passer les flux (RPC, DNS, Kerberos)
+
+Une fois le nouveau serveur joint au domaine et le role active directory installé. Je vérifie que la réplication s'est effectuée sans encombre avec :
+
+```
+repadmin /showrepl
+```
+
+![900](/assets/screenshots/ad/ad08.png)
+Validation de la réplication sans erreur
+
+![901](/assets/screenshots/ad/ad09.png)
+Visualisation des contrôleurs de domaine
+
+Procédure de Validation (Test de "Failover")
+
+Un test d'arrêt de l'AD-01 a été effectué. Le client Windows 10 a basculé automatiquement sur l'AD-02 pour la résolution DNS et l'authentification Kerberos, validant ainsi la continuité de service
