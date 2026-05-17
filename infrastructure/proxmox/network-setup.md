@@ -87,6 +87,3 @@ systemctl restart dnsmasq
 systemctl enable dnsmasq
 ```
 
-##### 4.Création bridge vmbr1
-
-![700](/assets/screenshots/proxmoxsetup/proxmox-network1.png)

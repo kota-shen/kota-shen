@@ -17,8 +17,8 @@
 
 ---
 
-## 🏗️ Mobile Audit Kit & HomeLab
-> Ma configuration simule une intervention d'audit réelle : une station mobile interragissant avec une infrastructure d'entreprise virtualisée.
+## 🏗️ Mobile Audit Kit, HomeLab & Virtual Lab (EVE-NG)
+> Ma configuration simule une intervention d'audit réelle : une station mobile interagissant avec une infrastructure d'entreprise virtualisée (systèmes et réseau d'entreprise complexe).
 
 ![schéma.png](./assets/diagrams/schéma.png)
 
@@ -26,9 +26,10 @@
 * **Systèmes :** Kali Linux (Rolling) & CSI Linux (Investigation).
 * **Outils :** Greenbone (OpenVAS), TL Osint, Nmap, Wireshark, Python.
 
-### 🌐 Infrastructure Réseau & Sécurité
-* **Firewalls :** Endian (Prévention) & pfSense (Protection & VPN).
-* **Systèmes :** Active Directory (Win Server), Multi-OS (Win 10/11, Ubuntu, Fedora).
+### 🌐 Infrastructure Réseau & Sécurité (Hybride Proxmox / EVE-NG)
+* **Architecture Réseau Émulée (EVE-NG) :** Équipements **Cisco** (Routeur + Switch) configurés initialement en réseau plat (VLAN unique) pour interconnecter et distribuer le réseau au lab.
+* **Sécurité & Pare-feu (EVE-NG) :** Appliance **Fortigate** intégrée dans un second temps pour assurer la transition vers une architecture réseau segmentée (Routage inter-VLAN) et des politiques de sécurité d'entreprise strictes.
+* **Systèmes (Proxmox) :** Active Directory (Win Server), Multi-OS (Win 10/11, Ubuntu, Fedora).
 * **Observabilité :** Zabbix & GLPI.
 
 ---
@@ -36,39 +37,46 @@
 ## 🛠️ Stack Technique
 | Catégorie | Badges |
 | :--- | :--- |
-| **Cybersécurité** | ![Greenbone](https://img.shields.io/badge/Greenbone-77AD1E?style=flat-square&logo=openvas&logoColor=white) ![CSI Linux](https://img.shields.io/badge/CSI%20Linux-000000?style=flat-square&logo=linux) ![OSINT](https://img.shields.io/badge/OSINT-TL%20Osint-blue?style=flat-square) |
+| **Cybersécurité** | ![Greenbone](https://img.shields.io/badge/Greenbone-77AD1E?style=flat-square&logo=openvas&logoColor=white) ![CSI Linux](https://img.shields.io/badge/CSI%20Linux-000000?style=flat-square&logo=linux) ![OSINT](https://img.shields.io/badge/OSINT-TL%20Osint-blue?style=flat-square) ![Fortinet](https://img.shields.io/badge/Fortinet-FF0000?style=flat-square&logo=fortinet&logoColor=white) |
 | **Systèmes** | ![Win](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows) ![Linux](https://img.shields.io/badge/Linux-E95420?style=flat-square&logo=linux) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker) |
-| **Réseau** | ![pfSense](https://img.shields.io/badge/pfSense-212121?style=flat-square&logo=pfsense) ![Cisco](https://img.shields.io/badge/Cisco-00bce1?style=flat-square&logo=cisco) |
+| **Réseau & Lab** | ![EVE-NG](https://img.shields.io/badge/EVE--NG-Orange?style=flat-square) ![Cisco](https://img.shields.io/badge/Cisco-00bce1?style=square&logo=cisco&logoColor=white) |
 | **Monitoring** | ![Zabbix](https://img.shields.io/badge/Zabbix-FF6600?style=flat-square&logo=zabbix) ![GLPI](https://img.shields.io/badge/GLPI-green?style=flat-square) |
 
 ---
 
 ## 🚀 Roadmap de Déploiement
-- [x] **Phase0:** [Proxmox Hypervisor setup (NAT routing & DHCP)](./infrastructure/proxmox/network-setup.md)
+- [x] **Phase 0 :** [Proxmox Hypervisor setup (NAT routing & DHCP)](./infrastructure/proxmox/network-setup.md)
 	- [x] Inventaire initial : [Fichier PDF](./documentation/inventory/Inventaire.pdf)
-- [x] **Phase 1 :** Déploiement Win 10 Pro & Windows Server AD DS (GPO, DNS).
-	- [x] [Déploiement Windows 10 Pro](./infrastructure/virtual-machines/Windows-10.md)
-	- [x] [Déploiement Windows Serveur](./infrastructure/virtual-machines/Windows-server.md)
-	- [x] [Installation et configuration de l'Active Directory](/infrastructure/services/ad-ds.md)
-- [x] **Phase 2 :** Déploiement Ubuntu Desktop & Ubuntu serveur
-	- [x] [Déploiement Ubuntu Desktop](/infrastructure/virtual-machines/Ubuntu.md)
-	- [x] [Déploiement Ubuntu Serveur](/infrastructure/virtual-machines/Ubuntu-server.md)
-	- [x] [Installation et configuration de LAMP](/infrastructure/services/LAMP.md)
-- [x] **Phase 3 :** Déploiement Windows 11 & Fedora (Prep LPI Essentials).
-	- [x] [Déploiement de Windows 11](/infrastructure/virtual-machines/Windows-11.md)
-	- [x] [Déploiement de Fedora 44](/infrastructure/virtual-machines/Fedora.md)
-- [x] **Phase 4 :** [Déploiement pfSense](/infrastructure/virtual-machines/pfsense.md)
-	- [x] [Déploiement second Active Directory](/infrastructure/virtual-machines/Active-directory-alt.md)
-	- [x] [Réplication Active Directory](/infrastructure/services/ad-ds.md#Replication-active-directory)
-- [ ] **Phase 5 :** Audit & hardening
-- [ ] **Phase 6 :** Déploiement Docker
-- [ ] **Phase 7 :** Mise sous contrôle avec GLPI & Zabbix.
-- [ ] **Phase 8 :** Sécurité avancée SIEM, IDS/IPS, Proxy
+- [ ] **Phase 1 :** Initialisation du Lab Réseau (EVE-NG)
+	- [ ] Déploiement d'EVE-NG directement sur Proxmox
+	- [ ] Configuration de la topologie initiale : **1 Routeur Cisco + 1 Switch Cisco**
+	- [ ] Instanciation d'un **réseau plat (un seul VLAN)** faisant office de passerelle permissive pour démarrer le lab
+- [ ] **Phase 2 :** Déploiement Win 10 Pro & Windows Server AD DS (GPO, DNS).
+	- [ ] Déploiement Windows 10 Pro
+	- [ ] Déploiement Windows Serveur]
+	- [ ] Installation et configuration de l'Active Directory
+- [ ] **Phase 3 :** Déploiement Ubuntu Desktop & Ubuntu serveur
+	- [ ] Déploiement Ubuntu Desktop
+	- [ ] Déploiement Ubuntu Serveur
+	- [ ] Installation et configuration de LAMP
+- [ ] **Phase 4 :** Déploiement Windows 11 & Fedora (Prep LPI Essentials).
+	- [ ] Déploiement de Windows 11
+	- [ ] Déploiement de Fedora 44
+- [ ] **Phase 5 :** Extension Active Directory
+	- [ ] Déploiement second Active Directory
+	- [ ] Réplication Active Directory]
+- [ ] **Phase 6 :** Évolution de la Topologie & Hardening (Fortigate & Cisco avancé)
+	- [ ] Intégration et configuration du Firewall Fortigate dans la topologie EVE-NG
+	- [ ] Création des VLANs, migration vers un routage inter-VLAN et mise en place des politiques restrictives
+- [ ] **Phase 7 :** Audit de l'infrastructure (Systèmes & Réseau)
+- [ ] **Phase 8 :** Déploiement Docker
+- [ ] **Phase 9 :** Mise sous contrôle avec GLPI & Zabbix (Monitoring des serveurs + Équipements Cisco/Fortigate via SNMP)
+- [ ] **Phase 10 :** Sécurité avancée SIEM, IDS/IPS, Proxy
 
 ---
 
 ## 🎯 Objectif Business
-Lancer mon activité de **Consultant en Cybersécurité**. Ce projet sert de "Proof of Concept" pour démontrer ma capacité à auditer, sécuriser et monitorer un parc informatique de PME de A à Z.
+Lancer mon activité de **Consultant en Cybersécurité**. Ce projet sert de "Proof of Concept" pour démontrer ma capacité à auditer, sécuriser et monitorer un parc informatique de PME de A à Z, en m'appuyant sur des topologies réseau constructeurs majeures (Cisco, Fortinet) émulées pour coller aux environnements de production réels.
 
 ---
 <p align="center">
